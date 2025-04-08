@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rennliste</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('bakgrunn.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ffffffcc;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="button-container">
+    <button onclick="location.href='pdf1.html'">PDF 1</button>
+    <button onclick="location.href='pdf2.html'">PDF 2</button>
+    <button onclick="location.href='pdf3.html'">PDF 3</button>
+    <button onclick="location.href='pdf4.html'">PDF 4</button>
+  </div>
+</body>
+</html>
